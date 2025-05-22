@@ -1,5 +1,5 @@
 
-##  Q-Table Agent: Feature-Based Discretization with Vision
+##  Q-Learning Agent
 
 We explored multiple versions of Q-table implementations, experimenting with different feature extraction pipelines, grid resolutions, and reward shaping strategies. Among these, we selected this **image-based Q-learning agent** because it consistently achieved better learning performance in simulation.
 
@@ -106,8 +106,6 @@ This project implements a **Deep Q-Network (DQN)** to solve the `LunarLander` en
 - **Visualization**: Recorded gameplay every 10 episodes
 
 ---
-
-##  Code Components Breakdown
 
 ###  Dependencies
 
