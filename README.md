@@ -218,13 +218,7 @@ jupyter notebook DQNCODE.ipynb
 
  A powerful **Proximal Policy Optimization (PPO)** agent trained to master the [OpenAI Gym LunarLander-v3](https://gym.openai.com/envs/LunarLander-v3/) environment using **deep reinforcement learning** and **frame-stacked image inputs**.
 
----
-
-![ppo-lander](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExazY5bzVmOHB6dTV2em04ZzFjNHNwbGFmc2g3czdpYzgyN3NlMGx0eCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/YOUR_UPLOADED_GIF_ID/giphy.gif)
-
----
-
-##  Architecture Summary
+##  Architecture
 
 The Agent uses a **PPO (Proximal Policy Optimization)** algorithm with **frame-stacked grayscale images** (4x84x84 input) and a **shared CNN backbone** that feeds into separate **actor and critic heads**.
 
